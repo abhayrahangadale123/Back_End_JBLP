@@ -1,6 +1,11 @@
 console.log("hooommmo");
 
-//sync.............................
+
+// this file use in  How file create, read, delete, update, etc working in sync and asysnc
+
+
+
+//1..................................................................sync......................................................
  
 let fs = require("fs");
 // console.log(fs);
@@ -13,7 +18,7 @@ fs.writeFileSync("index.html","Abhay ji Hello")
 // update ke liye
 fs.appendFileSync("index.html",",new msg kese ho ");
 
-// async se ..............................................................
+//2................................................................... async se ..............................................................
 
 
 //1.......... create file
